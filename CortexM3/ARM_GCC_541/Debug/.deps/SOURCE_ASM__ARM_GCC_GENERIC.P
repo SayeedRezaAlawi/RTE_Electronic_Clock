@@ -1,0 +1,10 @@
+E:/New_Dell_Laptop_18.04.2021/Drive_D/hda/Summer_Semester_2020/Embedded\ Architecture\ and\ Application/Lab1/Work_Space_RTE/RTE_Electronic_Clock.cydsn/CortexM3/ARM_GCC_541/Debug/CyBootAsmGnu.o : E:/New_Dell_Laptop_18.04.2021/Drive_D/hda/Summer_Semester_2020/Embedded\ Architecture\ and\ Application/Lab1/Work_Space_RTE/RTE_Electronic_Clock.cydsn/Generated_Source/PSoC5/CyBootAsmGnu.s E:/New_Dell_Laptop_18.04.2021/Drive_D/hda/Summer_Semester_2020/Embedded\ Architecture\ and\ Application/Lab1/Work_Space_RTE/RTE_Electronic_Clock.cydsn/Generated_Source/PSoC5/cydevicegnu.inc E:/New_Dell_Laptop_18.04.2021/Drive_D/hda/Summer_Semester_2020/Embedded\ Architecture\ and\ Application/Lab1/Work_Space_RTE/RTE_Electronic_Clock.cydsn/Generated_Source/PSoC5/cydevicegnu_trm.inc E:/New_Dell_Laptop_18.04.2021/Drive_D/hda/Summer_Semester_2020/Embedded\ Architecture\ and\ Application/Lab1/Work_Space_RTE/RTE_Electronic_Clock.cydsn/Generated_Source/PSoC5/cyfittergnu.inc 
+
+E:/New_Dell_Laptop_18.04.2021/Drive_D/hda/Summer_Semester_2020/Embedded\ Architecture\ and\ Application/Lab1/Work_Space_RTE/RTE_Electronic_Clock.cydsn/Generated_Source/PSoC5/CyBootAsmGnu.s : 
+
+E:/New_Dell_Laptop_18.04.2021/Drive_D/hda/Summer_Semester_2020/Embedded\ Architecture\ and\ Application/Lab1/Work_Space_RTE/RTE_Electronic_Clock.cydsn/Generated_Source/PSoC5/cydevicegnu.inc : 
+
+E:/New_Dell_Laptop_18.04.2021/Drive_D/hda/Summer_Semester_2020/Embedded\ Architecture\ and\ Application/Lab1/Work_Space_RTE/RTE_Electronic_Clock.cydsn/Generated_Source/PSoC5/cydevicegnu_trm.inc : 
+
+E:/New_Dell_Laptop_18.04.2021/Drive_D/hda/Summer_Semester_2020/Embedded\ Architecture\ and\ Application/Lab1/Work_Space_RTE/RTE_Electronic_Clock.cydsn/Generated_Source/PSoC5/cyfittergnu.inc : 
+

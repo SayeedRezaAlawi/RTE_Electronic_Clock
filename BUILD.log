@@ -1,0 +1,750 @@
+--------------- Build Started: 11/07/2022 21:28:19 Project: RTE_Electronic_Clock, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+cydsfit.exe -.appdatapath "C:\Users\Reza\AppData\Local\Cypress Semiconductor\PSoC Creator\4.4" -.fdsnotice -.fdswarpdepfile=warp_dependencies.txt -.fdselabdepfile=elab_dependencies.txt -.fdsbldfile=generated_files.txt -.fdsreffile=referenced_files.txt -p "E:\New_Dell_Laptop_18.04.2021\Drive_D\hda\Summer_Semester_2020\Embedded Architecture and Application\Lab1\Work_Space_RTE\RTE_Electronic_Clock.cydsn\RTE_Electronic_Clock.cyprj" -d CY8C5888LTI-LP097 -s "E:\New_Dell_Laptop_18.04.2021\Drive_D\hda\Summer_Semester_2020\Embedded Architecture and Application\Lab1\Work_Space_RTE\RTE_Electronic_Clock.cydsn\Generated_Source\PSoC5" -- -yv2 -q10 -ygs -o2 -v3 -.fftcfgtype=LE
+Elaborating Design...
+ADD: sdb.M0065: information: Analog terminal "vdac_ref" on ADC_SAR_SEQ_v2_10 is unconnected.
+ * C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_v2_10\PSoC5\ADC_SAR_SEQ_v2_10.cysch (Signal: vdac_ref)
+ * C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_v2_10\PSoC5\ADC_SAR_SEQ_v2_10.cysch (Shape_798)
+ * C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\ADC_SAR_SEQ_v2_10\PSoC5\ADC_SAR_SEQ_v2_10.cysch (Shape_885)
+ADD: fit.M0032: warning: Clock Warning: (Clock_1's accuracy range '24 MHz +/- 1%, (23.76 MHz - 24.24 MHz)' is not within the specified tolerance range '20 MHz +/- 5%, (19 MHz - 21 MHz)'.).
+ * E:\New_Dell_Laptop_18.04.2021\Drive_D\hda\Summer_Semester_2020\Embedded Architecture and Application\Lab1\Work_Space_RTE\RTE_Electronic_Clock.cydsn\RTE_Electronic_Clock.cydwr (Clock_1)
+ * E:\New_Dell_Laptop_18.04.2021\Drive_D\hda\Summer_Semester_2020\Embedded Architecture and Application\Lab1\Work_Space_RTE\RTE_Electronic_Clock.cydsn\TopDesign\TopDesign.cysch (Instance:Clock_1)
+HDL Generation...
+Synthesis...
+Tech Mapping...
+ADD: pft.M0040: information: The following 1 pin(s) will be assigned a location by the fitter: \JOYSTICK_ADC_XY:SAR:Bypass(0)\
+Analog Placement...
+Info: apr.M0002: Analog signal "Net_1413" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1414" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1416" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1418" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1419" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1421" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1423" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1424" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1426" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1428" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1429" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1431" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1433" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1434" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1436" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1438" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1439" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1441" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1443" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1444" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1446" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1448" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1449" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1451" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1453" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1454" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1456" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1458" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1459" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1461" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1463" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1464" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1466" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1468" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1469" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1471" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1473" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1474" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1476" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1478" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1479" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1481" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1483" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1484" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1486" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1488" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1489" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1490" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1491" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1492" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1493" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1494" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1495" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1496" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1497" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1498" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1499" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1500" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1501" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1502" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1503" is connected to one terminal only. (App=cydsfit)
+Info: apr.M0002: Analog signal "Net_1504" is connected to one terminal only. (App=cydsfit)
+Analog Routing...
+Analog Code Generation...
+Digital Placement...
+Digital Routing...
+Bitstream Generation...
+Bitstream Verification...
+Static timing analysis...
+API Generation...
+Dependency Generation...
+Cleanup...
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/logging.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\services\logging.c -o .\CortexM3\ARM_GCC_541\Debug\logging.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:67,
+                 from source\bsw\services\logging.c:21:
+source\bsw\services\ringbuffer.h: In function 'Ringbuffer_Write':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+source\bsw\services\ringbuffer.h:78:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+source\bsw\services\ringbuffer.h:99:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+source\bsw\services\logging.c: In function 'LOG_Init':
+source\bsw\services\logging.c:54:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/button.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\labboard\button.c -o .\CortexM3\ARM_GCC_541\Debug\button.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/joystick.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\labboard\joystick.c -o .\CortexM3\ARM_GCC_541\Debug\joystick.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:67,
+                 from source\bsw\labboard\joystick.c:24:
+.\source\bsw\services/ringbuffer.h: In function 'Ringbuffer_Write':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:78:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:99:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+source\bsw\labboard\joystick.c: In function 'JOYSTICK_ReadPosition':
+source\bsw\labboard\joystick.c:92:14: warning: unused variable 'xx' [-Wunused-variable]
+     uint16_t xx = 255 - 382;
+              ^
+source\bsw\labboard\joystick.c:82:10: warning: unused variable 'data' [-Wunused-variable]
+     char data[20];
+          ^
+source\bsw\labboard\joystick.c:79:10: warning: unused variable 'str' [-Wunused-variable]
+     char str[80];
+          ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/led.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\labboard\led.c -o .\CortexM3\ARM_GCC_541\Debug\led.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/seven.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\labboard\seven.c -o .\CortexM3\ARM_GCC_541\Debug\seven.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/tft.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\tft\tft.c -o .\CortexM3\ARM_GCC_541\Debug\tft.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:67,
+                 from .\source\bsw/global.h:66,
+                 from source\bsw\tft\tft.h:29,
+                 from source\bsw\tft\tft.c:20:
+.\source\bsw\services/ringbuffer.h: In function 'Ringbuffer_Write':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:78:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:99:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+In file included from source\bsw\tft\tft.h:29:0,
+                 from source\bsw\tft\tft.c:20:
+source\bsw\tft\tft.c: In function '__TFT_SPI_TX_ISR':
+source\bsw\tft\tft.h:50:37: warning: implicit declaration of function 'TFT_DC_Write' [-Wimplicit-function-declaration]
+ #define CFG_TFT_DC_PIN              TFT_DC                  /**< \brief Pin Name of the DC pin*/
+                                     ^
+.\source\bsw/global.h:105:29: note: in definition of macro 'PPCAT_NX'
+     #define PPCAT_NX(A, B)  A ## _ ## B
+                             ^
+source\bsw\tft\tft.c:39:29: note: in expansion of macro 'PPCAT'
+ #define MODULE_DC(x)        PPCAT(CFG_TFT_DC_PIN, x)      
+                             ^
+source\bsw\tft\tft.c:39:35: note: in expansion of macro 'CFG_TFT_DC_PIN'
+ #define MODULE_DC(x)        PPCAT(CFG_TFT_DC_PIN, x)      
+                                   ^
+source\bsw\tft\tft.c:41:29: note: in expansion of macro 'MODULE_DC'
+ #define TFT_DC_LOW          MODULE_DC(Write)(0)     /**< \brief Macro to set the DC(A0) pin LOW*/
+                             ^
+source\bsw\tft\tft.c:155:13: note: in expansion of macro 'TFT_DC_LOW'
+             TFT_DC_LOW;
+             ^
+source\bsw\tft\tft.h:48:37: warning: implicit declaration of function 'TFT_SPI_WriteTxData' [-Wimplicit-function-declaration]
+ #define CFG_TFT_SPI_MODULE          TFT_SPI                 /**< \brief Module Name of the SPI, which serves the TFT*/
+                                     ^
+.\source\bsw/global.h:105:29: note: in definition of macro 'PPCAT_NX'
+     #define PPCAT_NX(A, B)  A ## _ ## B
+                             ^
+source\bsw\tft\tft.c:31:29: note: in expansion of macro 'PPCAT'
+ #define MODULE_SPI(x)       PPCAT(CFG_TFT_SPI_MODULE, x)
+                             ^
+source\bsw\tft\tft.c:31:35: note: in expansion of macro 'CFG_TFT_SPI_MODULE'
+ #define MODULE_SPI(x)       PPCAT(CFG_TFT_SPI_MODULE, x)
+                                   ^
+source\bsw\tft\tft.c:165:5: note: in expansion of macro 'MODULE_SPI'
+     MODULE_SPI(WriteTxData)(p_next_frame->payload);    
+     ^
+source\bsw\tft\tft.c: In function 'TFT_init':
+source\bsw\tft\tft.h:48:37: warning: implicit declaration of function 'TFT_SPI_Start' [-Wimplicit-function-declaration]
+ #define CFG_TFT_SPI_MODULE          TFT_SPI                 /**< \brief Module Name of the SPI, which serves the TFT*/
+                                     ^
+.\source\bsw/global.h:105:29: note: in definition of macro 'PPCAT_NX'
+     #define PPCAT_NX(A, B)  A ## _ ## B
+                             ^
+source\bsw\tft\tft.c:31:29: note: in expansion of macro 'PPCAT'
+ #define MODULE_SPI(x)       PPCAT(CFG_TFT_SPI_MODULE, x)
+                             ^
+source\bsw\tft\tft.c:31:35: note: in expansion of macro 'CFG_TFT_SPI_MODULE'
+ #define MODULE_SPI(x)       PPCAT(CFG_TFT_SPI_MODULE, x)
+                                   ^
+source\bsw\tft\tft.c:214:5: note: in expansion of macro 'MODULE_SPI'
+     MODULE_SPI(Start)();
+     ^
+source\bsw\tft\tft.h:51:37: warning: implicit declaration of function 'TFT_RES_Write' [-Wimplicit-function-declaration]
+ #define CFG_TFT_RES_PIN             TFT_RES                 /**< \brief Pin Name of the RES pin*/
+                                     ^
+.\source\bsw/global.h:105:29: note: in definition of macro 'PPCAT_NX'
+     #define PPCAT_NX(A, B)  A ## _ ## B
+                             ^
+source\bsw\tft\tft.c:40:29: note: in expansion of macro 'PPCAT'
+ #define MODULE_RES(x)       PPCAT(CFG_TFT_RES_PIN, x)  
+                             ^
+source\bsw\tft\tft.c:40:35: note: in expansion of macro 'CFG_TFT_RES_PIN'
+ #define MODULE_RES(x)       PPCAT(CFG_TFT_RES_PIN, x)  
+                                   ^
+source\bsw\tft\tft.c:44:29: note: in expansion of macro 'MODULE_RES'
+ #define TFT_RES_HIGH        MODULE_RES(Write)(1)    /**< \brief Macro to set the Reset pin HIGH*/
+                             ^
+source\bsw\tft\tft.c:217:5: note: in expansion of macro 'TFT_RES_HIGH'
+     TFT_RES_HIGH;
+     ^
+source\bsw\tft\tft.h:49:37: warning: implicit declaration of function 'TFT_BackLight_Start' [-Wimplicit-function-declaration]
+ #define CFG_TFT_LED_MODULE          TFT_BackLight           /**< \brief Module Name of the PWM, which serves the TFT Backlight*/
+                                     ^
+.\source\bsw/global.h:105:29: note: in definition of macro 'PPCAT_NX'
+     #define PPCAT_NX(A, B)  A ## _ ## B
+                             ^
+source\bsw\tft\tft.c:36:29: note: in expansion of macro 'PPCAT'
+ #define MODULE_PWM(x)       PPCAT(CFG_TFT_LED_MODULE, x)
+                             ^
+source\bsw\tft\tft.c:36:35: note: in expansion of macro 'CFG_TFT_LED_MODULE'
+ #define MODULE_PWM(x)       PPCAT(CFG_TFT_LED_MODULE, x)
+                                   ^
+source\bsw\tft\tft.c:251:5: note: in expansion of macro 'MODULE_PWM'
+     MODULE_PWM(Start)();
+     ^
+source\bsw\tft\tft.h:49:37: warning: implicit declaration of function 'TFT_BackLight_WriteCompare' [-Wimplicit-function-declaration]
+ #define CFG_TFT_LED_MODULE          TFT_BackLight           /**< \brief Module Name of the PWM, which serves the TFT Backlight*/
+                                     ^
+.\source\bsw/global.h:105:29: note: in definition of macro 'PPCAT_NX'
+     #define PPCAT_NX(A, B)  A ## _ ## B
+                             ^
+source\bsw\tft\tft.c:36:29: note: in expansion of macro 'PPCAT'
+ #define MODULE_PWM(x)       PPCAT(CFG_TFT_LED_MODULE, x)
+                             ^
+source\bsw\tft\tft.c:36:35: note: in expansion of macro 'CFG_TFT_LED_MODULE'
+ #define MODULE_PWM(x)       PPCAT(CFG_TFT_LED_MODULE, x)
+                                   ^
+source\bsw\tft\tft.c:252:5: note: in expansion of macro 'MODULE_PWM'
+     MODULE_PWM(WriteCompare)(CFG_TFT_BACKLIGHT);
+     ^
+source\bsw\tft\tft.c: In function 'TFT_getBacklight':
+source\bsw\tft\tft.h:49:37: warning: implicit declaration of function 'TFT_BackLight_ReadCompare' [-Wimplicit-function-declaration]
+ #define CFG_TFT_LED_MODULE          TFT_BackLight           /**< \brief Module Name of the PWM, which serves the TFT Backlight*/
+                                     ^
+.\source\bsw/global.h:105:29: note: in definition of macro 'PPCAT_NX'
+     #define PPCAT_NX(A, B)  A ## _ ## B
+                             ^
+source\bsw\tft\tft.c:36:29: note: in expansion of macro 'PPCAT'
+ #define MODULE_PWM(x)       PPCAT(CFG_TFT_LED_MODULE, x)
+                             ^
+source\bsw\tft\tft.c:36:35: note: in expansion of macro 'CFG_TFT_LED_MODULE'
+ #define MODULE_PWM(x)       PPCAT(CFG_TFT_LED_MODULE, x)
+                                   ^
+source\bsw\tft\tft.c:262:12: note: in expansion of macro 'MODULE_PWM'
+     return MODULE_PWM(ReadCompare)();
+            ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ugui_st7735.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\LCD_Driver\ugui_st7735.c -o .\CortexM3\ARM_GCC_541\Debug\ugui_st7735.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ugui.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\LCD_Library\ugui.c -o .\CortexM3\ARM_GCC_541\Debug\ugui.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:67,
+                 from source\bsw\LCD_Library\ugui.h:20,
+                 from source\bsw\LCD_Library\ugui.c:50:
+.\source\bsw\services/ringbuffer.h: In function 'Ringbuffer_Write':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:78:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:99:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+source\bsw\LCD_Library\ugui.c: In function '_UG_PutChar':
+source\bsw\LCD_Library\ugui.c:5327:65: warning: suggest parentheses around arithmetic in operand of '|' [-Wparentheses]
+      color = (((fc & 0xFF) * b + (bc & 0xFF) * (256 - b)) >> 8) & 0xFF |//Blue component
+                                                                 ^
+source\bsw\LCD_Library\ugui.c:5329:73: warning: suggest parentheses around arithmetic in operand of '|' [-Wparentheses]
+              (((fc & 0xFF0000) * b + (bc & 0xFF0000) * (256 - b)) >> 8) & 0xFF0000; //Red component
+                                                                         ^
+source\bsw\LCD_Library\ugui.c:5376:75: warning: suggest parentheses around arithmetic in operand of '|' [-Wparentheses]
+                color = (((fc & 0xFF) * b + (bc & 0xFF) * (256 - b)) >> 8) & 0xFF |//Blue component
+                                                                           ^
+source\bsw\LCD_Library\ugui.c:5378:83: warning: suggest parentheses around arithmetic in operand of '|' [-Wparentheses]
+                        (((fc & 0xFF0000) * b + (bc & 0xFF0000) * (256 - b)) >> 8) & 0xFF0000; //Red component
+                                                                                   ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\main.c -o .\CortexM3\ARM_GCC_541\Debug\main.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:67,
+                 from source\asw\main.c:12:
+.\source\bsw\services/ringbuffer.h: In function 'Ringbuffer_Write':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:78:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:99:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+source\asw\main.c: In function 'Functsk_EventDispatcher':
+source\asw\main.c:110:13: warning: unused variable 'counter' [-Wunused-variable]
+     uint8_t counter=0;
+             ^
+source\asw\main.c:109:10: warning: unused variable 'value' [-Wunused-variable]
+     char value[100];
+          ^
+In file included from source\asw\main.c:18:0:
+source\asw\main.c: In function 'ISR2_isr_Button':
+source\asw\main.c:136:71: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+     if (TRUE == BUTTON_IsPressed(BUTTON_1)) LOG_I("BUTTON1_IsPressed","");ShutdownOS(E_OK);
+                                                                       ^
+.\source\bsw\services/logging.h:97:31: note: in definition of macro 'LOG'
+         sprintf (msg.message, __VA_ARGS__);         \
+                               ^
+source\asw\main.c:136:45: note: in expansion of macro 'LOG_I'
+     if (TRUE == BUTTON_IsPressed(BUTTON_1)) LOG_I("BUTTON1_IsPressed","");ShutdownOS(E_OK);
+                                             ^
+source\asw\main.c:136:71: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+     if (TRUE == BUTTON_IsPressed(BUTTON_1)) LOG_I("BUTTON1_IsPressed","");ShutdownOS(E_OK);
+                                                                       ^
+.\source\bsw\services/logging.h:97:31: note: in definition of macro 'LOG'
+         sprintf (msg.message, __VA_ARGS__);         \
+                               ^
+source\asw\main.c:136:45: note: in expansion of macro 'LOG_I'
+     if (TRUE == BUTTON_IsPressed(BUTTON_1)) LOG_I("BUTTON1_IsPressed","");ShutdownOS(E_OK);
+                                             ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/swc_control.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\swc_control.c -o .\CortexM3\ARM_GCC_541\Debug\swc_control.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:67,
+                 from .\source\bsw/global.h:66,
+                 from .\source\rte/rte.h:80,
+                 from source\asw\swc_control.c:6:
+.\source\bsw\services/ringbuffer.h: In function 'Ringbuffer_Write':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:78:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:99:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+source\asw\swc_control.c: In function 'run_calculateControl':
+source\asw\swc_control.c:29:13: warning: unused variable 'xx' [-Wunused-variable]
+     uint8_t xx=0;
+             ^
+source\asw\swc_control.c:28:13: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+     sint8_t x=0;
+             ^
+source\asw\swc_control.c:27:10: warning: unused variable 'str' [-Wunused-variable]
+     char str[100];
+          ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/swc_engine.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\swc_engine.c -o .\CortexM3\ARM_GCC_541\Debug\swc_engine.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:67,
+                 from .\source\bsw/global.h:66,
+                 from .\source\rte/rte.h:80,
+                 from source\asw\swc_engine.c:6:
+.\source\bsw\services/ringbuffer.h: In function 'Ringbuffer_Write':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:78:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:99:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/swc_joystick.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\swc_joystick.c -o .\CortexM3\ARM_GCC_541\Debug\swc_joystick.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:67,
+                 from .\source\bsw/global.h:66,
+                 from .\source\rte/rte.h:80,
+                 from source\asw\swc_joystick.c:6:
+.\source\bsw\services/ringbuffer.h: In function 'Ringbuffer_Write':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:78:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:99:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+source\asw\swc_joystick.c: In function 'run_readJoystick':
+source\asw\swc_joystick.c:18:10: warning: variable 'result' set but not used [-Wunused-but-set-variable]
+     RC_t result = RC_ERROR;
+          ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/swc_brakelight.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\swc_brakelight.c -o .\CortexM3\ARM_GCC_541\Debug\swc_brakelight.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:67,
+                 from .\source\bsw/global.h:66,
+                 from .\source\rte/rte.h:80,
+                 from source\asw\swc_brakelight.c:6:
+.\source\bsw\services/ringbuffer.h: In function 'Ringbuffer_Write':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:78:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:99:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/swc_lcd.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\swc_lcd.c -o .\CortexM3\ARM_GCC_541\Debug\swc_lcd.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:67,
+                 from .\source\bsw/global.h:66,
+                 from .\source\rte/rte.h:80,
+                 from source\asw\swc_lcd.c:6:
+.\source\bsw\services/ringbuffer.h: In function 'Ringbuffer_Write':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:78:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:99:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/adc_type.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\rte\adc_type.c -o .\CortexM3\ARM_GCC_541\Debug\adc_type.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:67,
+                 from source\rte\adc_type.c:8:
+.\source\bsw\services/ringbuffer.h: In function 'Ringbuffer_Write':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:78:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:99:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/gpio_type.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\rte\gpio_type.c -o .\CortexM3\ARM_GCC_541\Debug\gpio_type.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/pwm_type.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\rte\pwm_type.c -o .\CortexM3\ARM_GCC_541\Debug\pwm_type.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/rte_activation.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\rte\rte_activation.c -o .\CortexM3\ARM_GCC_541\Debug\rte_activation.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/rte_signalpool.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\rte\rte_signalpool.c -o .\CortexM3\ARM_GCC_541\Debug\rte_signalpool.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:67,
+                 from source\rte\rte_signalpool.c:5:
+.\source\bsw\services/ringbuffer.h: In function 'Ringbuffer_Write':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:78:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:99:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/rte.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\rte\rte.c -o .\CortexM3\ARM_GCC_541\Debug\rte.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:67,
+                 from .\source\bsw/global.h:66,
+                 from source\rte\rte.h:80,
+                 from source\rte\rte.c:23:
+.\source\bsw\services/ringbuffer.h: In function 'Ringbuffer_Write':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:78:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:99:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+source\rte\rte.c: In function 'RTE_ProcessCyclicTable':
+source\rte\rte.c:65:10: warning: unused variable 'data' [-Wunused-variable]
+     char data[20];
+          ^
+source\rte\rte.c: In function 'RTE_ProcessEventTable':
+source\rte\rte.c:99:10: warning: unused variable 'data' [-Wunused-variable]
+     char data[20];
+          ^
+source\rte\rte.c: In function 'RTE_ProcessCyclicTable':
+source\rte\rte.c:88:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+source\rte\rte.c: In function 'RTE_ProcessEventTable':
+source\rte\rte.c:114:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/lcd_type.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\rte\lcd_type.c -o .\CortexM3\ARM_GCC_541\Debug\lcd_type.o
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:67,
+                 from source\rte\lcd_type.c:8:
+.\source\bsw\services/ringbuffer.h: In function 'Ringbuffer_Write':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:78:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:99:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+source\rte\lcd_type.c: In function 'LCD_driverOut':
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/watchdog.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\bsw\watchdog\watchdog.c -o .\CortexM3\ARM_GCC_541\Debug\watchdog.o
+source\rte\lcd_type.c:45:5: warning: implicit declaration of function 'itoa' [-Wimplicit-function-declaration]
+     itoa(data->str , value, 10);
+     ^
+source\rte\lcd_type.c:43:13: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+     uint8_t y;
+             ^
+source\rte\lcd_type.c:42:10: warning: unused variable 'str' [-Wunused-variable]
+     char str[20];
+          ^
+In file included from Generated_Source\PSoC5/ErikaOS_1_ee_api.inc:73:0,
+                 from Generated_Source\PSoC5/ErikaOS_1_ee.h:129,
+                 from Generated_Source\PSoC5/project.h:67,
+                 from source\bsw\watchdog\watchdog.c:24:
+.\source\bsw\services/ringbuffer.h: In function 'Ringbuffer_Write':
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:136:35: warning: implicit declaration of function 'EE_oo_GetResource' [-Wimplicit-function-declaration]
+ #define GetResource               EE_oo_GetResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:78:9: note: in expansion of macro 'GetResource'
+         GetResource(rb->erika_ressource);
+         ^
+Generated_Source\PSoC5/ErikaOS_1_ee_oo_api.inc:140:35: warning: implicit declaration of function 'EE_oo_ReleaseResource' [-Wimplicit-function-declaration]
+ #define ReleaseResource           EE_oo_ReleaseResource
+                                   ^
+.\source\bsw\services/ringbuffer.h:99:9: note: in expansion of macro 'ReleaseResource'
+         ReleaseResource(rb->erika_ressource);
+         ^
+source\bsw\watchdog\watchdog.c: In function 'WD_Trigger':
+source\bsw\watchdog\watchdog.c:79:10: warning: unused variable 'str' [-Wunused-variable]
+     char str[50];
+          ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cyfitter_cfg.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\cyfitter_cfg.c -o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cymetadata.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\cymetadata.c -o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_A.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_A.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_A.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_B.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_B.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_B.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_C.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_C.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_C.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_D.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_D.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_D.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_E.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_E.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_E.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_F.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_F.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_F.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_G.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_G.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_G.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_DP.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_DP.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_DP.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_SELECT.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_SELECT.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_SELECT.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_reg.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_reg.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_reg.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SEVEN_reg_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SEVEN_reg_PM.c -o .\CortexM3\ARM_GCC_541\Debug\SEVEN_reg_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/BUTTON_1.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\BUTTON_1.c -o .\CortexM3\ARM_GCC_541\Debug\BUTTON_1.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/isr_Button.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\isr_Button.c -o .\CortexM3\ARM_GCC_541\Debug\isr_Button.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/BUTTON_2.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\BUTTON_2.c -o .\CortexM3\ARM_GCC_541\Debug\BUTTON_2.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/BUTTON_3.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\BUTTON_3.c -o .\CortexM3\ARM_GCC_541\Debug\BUTTON_3.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/BUTTON_4.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\BUTTON_4.c -o .\CortexM3\ARM_GCC_541\Debug\BUTTON_4.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/LED_red.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\LED_red.c -o .\CortexM3\ARM_GCC_541\Debug\LED_red.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/LED_yellow.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\LED_yellow.c -o .\CortexM3\ARM_GCC_541\Debug\LED_yellow.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/LED_green.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\LED_green.c -o .\CortexM3\ARM_GCC_541\Debug\LED_green.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/UART_LOG.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\UART_LOG.c -o .\CortexM3\ARM_GCC_541\Debug\UART_LOG.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/UART_LOG_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\UART_LOG_PM.c -o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/UART_LOG_INT.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\UART_LOG_INT.c -o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_INT.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/UART_LOG_BOOT.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\UART_LOG_BOOT.c -o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_BOOT.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_PWM_red.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_PWM_red.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_red.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_PWM_red_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_PWM_red_PM.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_red_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/PWM_Clock.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\PWM_Clock.c -o .\CortexM3\ARM_GCC_541\Debug\PWM_Clock.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_PWM_green.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_PWM_green.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_green.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_PWM_green_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_PWM_green_PM.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_green_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_PWM_blue.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_PWM_blue.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_blue.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_PWM_blue_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_PWM_blue_PM.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_blue_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_R.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_R.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_R.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_G.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_G.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_G.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RGB_B.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RGB_B.c -o .\CortexM3\ARM_GCC_541\Debug\RGB_B.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_ee_startos.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_ee_startos.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_startos.o
+In file included from Generated_Source\PSoC5\ErikaOS_1_ee_startos.c:332:0:
+Generated_Source\PSoC5\ErikaOS_1_ee_startos.c: In function 'EE_oo_StartOS':
+Generated_Source\PSoC5\CyLib.h:59:15: warning: unused variable 'cydelay_32k_ms' [-Wunused-variable]
+ extern uint32 cydelay_32k_ms;
+               ^
+Generated_Source\PSoC5\CyLib.h:58:15: warning: unused variable 'cydelay_freq_mhz' [-Wunused-variable]
+ extern uint8  cydelay_freq_mhz;
+               ^
+Generated_Source\PSoC5\CyLib.h:57:15: warning: unused variable 'cydelay_freq_khz' [-Wunused-variable]
+ extern uint32 cydelay_freq_khz;
+               ^
+Generated_Source\PSoC5\CyLib.h:56:15: warning: unused variable 'cydelay_freq_hz' [-Wunused-variable]
+ extern uint32 cydelay_freq_hz;
+               ^
+Generated_Source\PSoC5\CyLib.h:44:22: warning: unused variable 'CyResetStatus' [-Wunused-variable]
+ extern uint8 CYXDATA CyResetStatus;
+                      ^
+In file included from Generated_Source\PSoC5\cyPm.h:25:0,
+                 from Generated_Source\PSoC5\CyLib.h:29,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_startos.c:332:
+Generated_Source\PSoC5\CyFlash.h:28:14: warning: unused variable 'dieTemperature' [-Wunused-variable]
+ extern uint8 dieTemperature[CY_FLASH_DIE_TEMP_DATA_SIZE];
+              ^
+In file included from Generated_Source\PSoC5\CyFlash.h:24:0,
+                 from Generated_Source\PSoC5\cyPm.h:25,
+                 from Generated_Source\PSoC5\CyLib.h:29,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_startos.c:332:
+Generated_Source\PSoC5\CySpc.h:28:14: warning: unused variable 'SpcLockState' [-Wunused-variable]
+ extern uint8 SpcLockState;
+              ^
+In file included from Generated_Source\PSoC5\CyLib.h:26:0,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_startos.c:332:
+Generated_Source\PSoC5\cytypes.h:487:25: warning: typedef 'int8' locally defined but not used [-Wunused-local-typedefs]
+ typedef signed   char   int8;
+                         ^
+Generated_Source\PSoC5\cytypes.h:488:25: warning: typedef 'int16' locally defined but not used [-Wunused-local-typedefs]
+ typedef signed   short  int16;
+                         ^
+Generated_Source\PSoC5\cytypes.h:489:25: warning: typedef 'int32' locally defined but not used [-Wunused-local-typedefs]
+ typedef signed   long   int32;
+                         ^
+Generated_Source\PSoC5\cytypes.h:490:25: warning: typedef 'float32' locally defined but not used [-Wunused-local-typedefs]
+ typedef          float  float32;
+                         ^
+Generated_Source\PSoC5\cytypes.h:494:34: warning: typedef 'float64' locally defined but not used [-Wunused-local-typedefs]
+     typedef               double float64;
+                                  ^
+Generated_Source\PSoC5\cytypes.h:495:34: warning: typedef 'int64' locally defined but not used [-Wunused-local-typedefs]
+     typedef          long long   int64;
+                                  ^
+Generated_Source\PSoC5\cytypes.h:496:34: warning: typedef 'uint64' locally defined but not used [-Wunused-local-typedefs]
+     typedef unsigned long long   uint64;
+                                  ^
+Generated_Source\PSoC5\cytypes.h:501:25: warning: typedef 'char8' locally defined but not used [-Wunused-local-typedefs]
+ typedef          char   char8;
+                         ^
+Generated_Source\PSoC5\cytypes.h:654:33: warning: typedef 'reg8' locally defined but not used [-Wunused-local-typedefs]
+ typedef volatile uint8  CYXDATA reg8;
+                                 ^
+Generated_Source\PSoC5\cytypes.h:655:33: warning: typedef 'reg16' locally defined but not used [-Wunused-local-typedefs]
+ typedef volatile uint16 CYXDATA reg16;
+                                 ^
+Generated_Source\PSoC5\cytypes.h:656:33: warning: typedef 'reg32' locally defined but not used [-Wunused-local-typedefs]
+ typedef volatile uint32 CYXDATA reg32;
+                                 ^
+In file included from Generated_Source\PSoC5\CyLib.h:29:0,
+                 from Generated_Source\PSoC5\ErikaOS_1_ee_startos.c:332:
+Generated_Source\PSoC5\cyPm.h:267:3: warning: typedef 'CY_PM_CLOCK_BACKUP_STRUCT' locally defined but not used [-Wunused-local-typedefs]
+ } CY_PM_CLOCK_BACKUP_STRUCT;
+   ^
+Generated_Source\PSoC5\cyPm.h:315:3: warning: typedef 'CY_PM_BACKUP_STRUCT' locally defined but not used [-Wunused-local-typedefs]
+ } CY_PM_BACKUP_STRUCT;
+   ^
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/ErikaOS_1_cortex_mx_ee_utils.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\ErikaOS_1_cortex_mx_ee_utils.c -o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_utils.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/UART_LOG_IntClock.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\UART_LOG_IntClock.c -o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_IntClock.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cy_em_eeprom.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\cy_em_eeprom.c -o .\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/Cm3Start.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\Cm3Start.c -o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CyDmac.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\CyDmac.c -o .\CortexM3\ARM_GCC_541\Debug\CyDmac.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CyFlash.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\CyFlash.c -o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CyLib.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\CyLib.c -o .\CortexM3\ARM_GCC_541\Debug\CyLib.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cyPm.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\cyPm.c -o .\CortexM3\ARM_GCC_541\Debug\cyPm.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CySpc.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\CySpc.c -o .\CortexM3\ARM_GCC_541\Debug\CySpc.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/cyutils.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\cyutils.c -o .\CortexM3\ARM_GCC_541\Debug\cyutils.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/Buttons_Status.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\Buttons_Status.c -o .\CortexM3\ARM_GCC_541\Debug\Buttons_Status.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/JOYSTICK_ADC_XY.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\JOYSTICK_ADC_XY.c -o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/JOYSTICK_ADC_XY_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\JOYSTICK_ADC_XY_PM.c -o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/JOYSTICK_ADC_XY_INT.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\JOYSTICK_ADC_XY_INT.c -o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_INT.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/JOYSTICK_ADC_XY_IRQ.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\JOYSTICK_ADC_XY_IRQ.c -o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_IRQ.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/JOYSTICK_ADC_XY_SAR.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\JOYSTICK_ADC_XY_SAR.c -o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_SAR.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/JOYSTICK_ADC_XY_SAR_INT.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\JOYSTICK_ADC_XY_SAR_INT.c -o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_SAR_INT.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/JOYSTICK_ADC_XY_SAR_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\JOYSTICK_ADC_XY_SAR_PM.c -o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_SAR_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/JOYSTICK_ADC_XY_IntClock.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\JOYSTICK_ADC_XY_IntClock.c -o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_IntClock.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/JOYSTICK_ADC_XY_TempBuf_dma.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\JOYSTICK_ADC_XY_TempBuf_dma.c -o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_TempBuf_dma.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/JOYSTICK_ADC_XY_FinalBuf_dma.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\JOYSTICK_ADC_XY_FinalBuf_dma.c -o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_FinalBuf_dma.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/JOYSTICK_ADC_XY_SAR_Bypass.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\JOYSTICK_ADC_XY_SAR_Bypass.c -o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_SAR_Bypass.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/Joystrick_Horizontal.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\Joystrick_Horizontal.c -o .\CortexM3\ARM_GCC_541\Debug\Joystrick_Horizontal.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/Joystrick_Vertical.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\Joystrick_Vertical.c -o .\CortexM3\ARM_GCC_541\Debug\Joystrick_Vertical.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SPIM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SPIM.c -o .\CortexM3\ARM_GCC_541\Debug\SPIM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SPIM_PM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SPIM_PM.c -o .\CortexM3\ARM_GCC_541\Debug\SPIM_PM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SPIM_INT.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SPIM_INT.c -o .\CortexM3\ARM_GCC_541\Debug\SPIM_INT.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SCL.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SCL.c -o .\CortexM3\ARM_GCC_541\Debug\SCL.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/SI.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\SI.c -o .\CortexM3\ARM_GCC_541\Debug\SI.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/Clock_1.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\Clock_1.c -o .\CortexM3\ARM_GCC_541\Debug\Clock_1.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/CS.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\CS.c -o .\CortexM3\ARM_GCC_541\Debug\CS.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RS.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RS.c -o .\CortexM3\ARM_GCC_541\Debug\RS.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/RST.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\RST.c -o .\CortexM3\ARM_GCC_541\Debug\RST.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/AAA.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\AAA.c -o .\CortexM3\ARM_GCC_541\Debug\AAA.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/Em_EEPROM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\Em_EEPROM.c -o .\CortexM3\ARM_GCC_541\Debug\Em_EEPROM.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\asw -I.\source\bsw -I.\source\bsw\labboard -I.\source\bsw\services -I.\source\bsw\tft -I.\source\bsw\tft\fonts -I.\source\rte -I.\source\bsw\LCD_Driver -I.\source\bsw\LCD_Library -I.\source\bsw\watchdog -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/EEPROM.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c Generated_Source\PSoC5\EEPROM.c -o .\CortexM3\ARM_GCC_541\Debug\EEPROM.o
+arm-none-eabi-as.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -alh=.\CortexM3\ARM_GCC_541\Debug/CyBootAsmGnu.lst -g -W -o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o Generated_Source\PSoC5\CyBootAsmGnu.s
+arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_541\Debug\RTE_Electronic_Clock.a .\CortexM3\ARM_GCC_541\Debug\SEVEN_A.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_B.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_C.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_D.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_E.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_F.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_G.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_DP.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_SELECT.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_reg.o .\CortexM3\ARM_GCC_541\Debug\SEVEN_reg_PM.o .\CortexM3\ARM_GCC_541\Debug\BUTTON_1.o .\CortexM3\ARM_GCC_541\Debug\isr_Button.o .\CortexM3\ARM_GCC_541\Debug\BUTTON_2.o .\CortexM3\ARM_GCC_541\Debug\BUTTON_3.o .\CortexM3\ARM_GCC_541\Debug\BUTTON_4.o .\CortexM3\ARM_GCC_541\Debug\LED_red.o .\CortexM3\ARM_GCC_541\Debug\LED_yellow.o .\CortexM3\ARM_GCC_541\Debug\LED_green.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_PM.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_INT.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_BOOT.o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_red.o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_red_PM.o .\CortexM3\ARM_GCC_541\Debug\PWM_Clock.o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_green.o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_green_PM.o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_blue.o .\CortexM3\ARM_GCC_541\Debug\RGB_PWM_blue_PM.o .\CortexM3\ARM_GCC_541\Debug\RGB_R.o .\CortexM3\ARM_GCC_541\Debug\RGB_G.o .\CortexM3\ARM_GCC_541\Debug\RGB_B.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_activate.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alcancel.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alget.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_algetbase.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alsetabs.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_alsetrel.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_altick.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_chaintas.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evclear.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evget.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evset.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_evwait.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_force_schedule.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_getcountervalue.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_getelapsedvalue.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gettaskid.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gettaskstate.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_iparam.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_irqendin.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_lockres.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_lookup.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_exchg.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_first.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_rq_inser.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_schedule.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semgetvalue.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_sempost.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semtrywait.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_semwait.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_shtdown.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_startos.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_terminat.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_thendin.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_tnterm.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_tstub.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_ulockallres.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_ulockres.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_context.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_system_timer.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_cortex_mx_ee_utils.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_common_ee_hal_structs.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_eecfg.o .\CortexM3\ARM_GCC_541\Debug\UART_LOG_IntClock.o .\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM3\ARM_GCC_541\Debug\CyDmac.o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o .\CortexM3\ARM_GCC_541\Debug\CyLib.o .\CortexM3\ARM_GCC_541\Debug\cyPm.o .\CortexM3\ARM_GCC_541\Debug\CySpc.o .\CortexM3\ARM_GCC_541\Debug\cyutils.o .\CortexM3\ARM_GCC_541\Debug\Buttons_Status.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_PM.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_INT.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_IRQ.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_SAR.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_SAR_INT.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_SAR_PM.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_IntClock.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_TempBuf_dma.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_FinalBuf_dma.o .\CortexM3\ARM_GCC_541\Debug\JOYSTICK_ADC_XY_SAR_Bypass.o .\CortexM3\ARM_GCC_541\Debug\Joystrick_Horizontal.o .\CortexM3\ARM_GCC_541\Debug\Joystrick_Vertical.o .\CortexM3\ARM_GCC_541\Debug\SPIM.o .\CortexM3\ARM_GCC_541\Debug\SPIM_PM.o .\CortexM3\ARM_GCC_541\Debug\SPIM_INT.o .\CortexM3\ARM_GCC_541\Debug\SCL.o .\CortexM3\ARM_GCC_541\Debug\SI.o .\CortexM3\ARM_GCC_541\Debug\Clock_1.o .\CortexM3\ARM_GCC_541\Debug\CS.o .\CortexM3\ARM_GCC_541\Debug\RS.o .\CortexM3\ARM_GCC_541\Debug\RST.o .\CortexM3\ARM_GCC_541\Debug\AAA.o .\CortexM3\ARM_GCC_541\Debug\Em_EEPROM.o .\CortexM3\ARM_GCC_541\Debug\EEPROM.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_change_context_isr.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_irq_stack.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_multi_context.o .\CortexM3\ARM_GCC_541\Debug\ErikaOS_1_ee_gnu_oo.o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_541\Debug\RTE_Electronic_Clock.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o "E:\New_Dell_Laptop_18.04.2021\Drive_D\hda\Summer_Semester_2020\Embedded Architecture and Application\Lab1\Work_Space_RTE\RTE_Electronic_Clock.cydsn\CortexM3\ARM_GCC_541\Debug\RTE_Electronic_Clock.elf" .\CortexM3\ARM_GCC_541\Debug\logging.o .\CortexM3\ARM_GCC_541\Debug\button.o .\CortexM3\ARM_GCC_541\Debug\joystick.o .\CortexM3\ARM_GCC_541\Debug\led.o .\CortexM3\ARM_GCC_541\Debug\seven.o .\CortexM3\ARM_GCC_541\Debug\tft.o .\CortexM3\ARM_GCC_541\Debug\ugui_st7735.o .\CortexM3\ARM_GCC_541\Debug\ugui.o .\CortexM3\ARM_GCC_541\Debug\main.o .\CortexM3\ARM_GCC_541\Debug\swc_control.o .\CortexM3\ARM_GCC_541\Debug\swc_engine.o .\CortexM3\ARM_GCC_541\Debug\swc_joystick.o .\CortexM3\ARM_GCC_541\Debug\swc_brakelight.o .\CortexM3\ARM_GCC_541\Debug\swc_lcd.o .\CortexM3\ARM_GCC_541\Debug\adc_type.o .\CortexM3\ARM_GCC_541\Debug\gpio_type.o .\CortexM3\ARM_GCC_541\Debug\pwm_type.o .\CortexM3\ARM_GCC_541\Debug\rte_activation.o .\CortexM3\ARM_GCC_541\Debug\rte_signalpool.o .\CortexM3\ARM_GCC_541\Debug\rte.o .\CortexM3\ARM_GCC_541\Debug\lcd_type.o .\CortexM3\ARM_GCC_541\Debug\watchdog.o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o .\CortexM3\ARM_GCC_541\Debug\RTE_Electronic_Clock.a "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -Wl,-Map,.\CortexM3\ARM_GCC_541\Debug/RTE_Electronic_Clock.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+cyelftool.exe -C "E:\New_Dell_Laptop_18.04.2021\Drive_D\hda\Summer_Semester_2020\Embedded Architecture and Application\Lab1\Work_Space_RTE\RTE_Electronic_Clock.cydsn\CortexM3\ARM_GCC_541\Debug\RTE_Electronic_Clock.elf" --flash_row_size 256 --flash_size 262144 --flash_offset 0x00000000
+No ELF section .cychecksum found, creating one
+Application checksum calculated and stored in ELF section .cychecksum
+Checksum calculated and stored in ELF section .cymeta
+cyelftool.exe -S "E:\New_Dell_Laptop_18.04.2021\Drive_D\hda\Summer_Semester_2020\Embedded Architecture and Application\Lab1\Work_Space_RTE\RTE_Electronic_Clock.cydsn\CortexM3\ARM_GCC_541\Debug\RTE_Electronic_Clock.elf"
+Flash used: 77056 of 262144 bytes (29.4%).
+SRAM used: 4753 of 65536 bytes (7.3%). Stack: 2048 bytes. Heap: 128 bytes.
+--------------- Build Succeeded: 11/07/2022 21:29:44 ---------------

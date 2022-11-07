@@ -1,0 +1,6 @@
+E:\New_Dell_Laptop_18.04.2021\Drive_D\hda\Summer_Semester_2020\Embedded Architecture and Application\Lab1\Work_Space_RTE\RTE_Electronic_Clock.cydsn\RTE_Electronic_Clock.cyprj|b675fdc8-95e6-4ee7-9dcb-f377b9af0d24
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|dd19e665-cefa-4cf2-a08e-0f5321a042a0
+C:\Users\Reza\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|d88a3708-1105-44cb-858d-94563ec8b29f
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|06a937d8-61df-4fd9-b14c-820e9769c268
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|f64bf4a8-f790-4d68-8648-b3fcda4883c1
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|fe64a995-0a62-4d2a-ad73-ba5f6d98cbd7
